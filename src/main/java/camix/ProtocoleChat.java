@@ -12,7 +12,7 @@ public final class ProtocoleChat
 	/**
 	 * Encodage du protocole.
 	 */
-	public static final String ENCODAGE = "UTF8";
+	static final String ENCODAGE = "UTF8";
 	
 	/**
 	 * Taille d'une commande (en caractères).
@@ -22,47 +22,47 @@ public final class ProtocoleChat
 	/**
 	 * Caractère de début de commande.
 	 */
-	public static final char COMMANDE_CARACTERE = '/';
+	private static final char COMMANDE_CARACTERE = '/';
 	
 	/**
 	 * Commande de changement de surnom d'un client du chat.
 	 */
-	public static final char COMMANDE_CHANGE_SURNOM_CLIENT = 'n';
+	static final char COMMANDE_CHANGE_SURNOM_CLIENT = 'n';
 
 	/**
 	 * Commande de changement de canal d'un client.
 	 */
-	public static final char COMMANDE_CHANGE_CANAL_CLIENT = 'c';
+	static final char COMMANDE_CHANGE_CANAL_CLIENT = 'c';
 
 	/**
 	 * Commande d'ajout d'un canal dans le chat.
 	 */
-	public static final char COMMANDE_AJOUTE_CANAL = 'a';
+	static final char COMMANDE_AJOUTE_CANAL = 'a';
 
 	/**
 	 * Commande de suppression d'un canal dans le chat.
 	 */
-	public static final char COMMANDE_SUPPRIME_CANAL = 'r';
+	static final char COMMANDE_SUPPRIME_CANAL = 'r';
 
 	/**
 	 * Commande d'affichage des canaux disponibles dans le chat.
 	 */
-	public static final char COMMANDE_AFFICHE_CANAUX = 'l';
+	static final char COMMANDE_AFFICHE_CANAUX = 'l';
 
 	/**
 	 * Commande d'affichage des informations personnelles du client.
 	 */
-	public static final char COMMANDE_AFFICHE_CLIENT = '?';
+	static final char COMMANDE_AFFICHE_CLIENT = '?';
 
 	/**
 	 * Commande d'affichage de l'aide sur les commandes disponibles.
 	 */
-	public static final char COMMANDE_AFFICHE_AIDE = 'h';
+	private static final char COMMANDE_AFFICHE_AIDE = 'h';
 
 	/**
 	 * Commande de fermeture du chat.
 	 */
-	public static final char COMMANDE_QUITTER_CHAT = 'q';
+	static final char COMMANDE_QUITTER_CHAT = 'q';
 	
 	/**
 	 * Message à transmettre dans le chat de la part d'un client.
@@ -72,7 +72,7 @@ public final class ProtocoleChat
 	 * <li>Premier %s : Renseigné par le message à transmettre lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_PREFIXE_MESSAGE = "%s > %s";
+	static final String MESSAGE_PREFIXE_MESSAGE = "%s > %s";
 	
 	/**
 	 * Message d'arrivée d'un client dans le chat.
@@ -81,12 +81,12 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du canal par défaut à lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_ARRIVEE_CHAT = "* Un nouveau client est dans le chat (%s).%n";
+	static final String MESSAGE_ARRIVEE_CHAT = "* Un nouveau client est dans le chat (%s).%n";
 	
 	/**
 	 * Message d'accueil d'un client dans le chat.
 	 */
-	public static final String MESSAGE_ACCUEIL_CHAT = "* Taper /" + ProtocoleChat.COMMANDE_AFFICHE_AIDE 
+	static final String MESSAGE_ACCUEIL_CHAT = "* Taper /" + ProtocoleChat.COMMANDE_AFFICHE_AIDE
 						+ " pour avoir de l'aide sur les commandes du chat.%n";
 	
 	/** 
@@ -96,7 +96,7 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du client lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_DEPART_CHAT = "* %s quitte le chat.%n";
+	static final String MESSAGE_DEPART_CHAT = "* %s quitte le chat.%n";
 	
 	/**
 	 * Message de changement de surnom d'un client.
@@ -106,7 +106,7 @@ public final class ProtocoleChat
 	 * <li>Deuxième %s : Renseigné par le nouveau surnom du client lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_CHANGEMENT_SURNOM = "* %s devient %s.%n";
+	static final String MESSAGE_CHANGEMENT_SURNOM = "* %s devient %s.%n";
 	
 	/**
 	 * Message de départ d'un client d'un canal.
@@ -116,7 +116,7 @@ public final class ProtocoleChat
 	 * <li>Deuxième %s : Renseigné par le nom du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_DEPART_CANAL = "* %s quitte le canal %s.%n";
+	static final String MESSAGE_DEPART_CANAL = "* %s quitte le canal %s.%n";
 	
 	/**
 	 * Message d'arrivée d'un client dans un canal.
@@ -126,12 +126,12 @@ public final class ProtocoleChat
 	 * <li>Deuxième %s : Renseigné par le nom du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_ARRIVEE_CANAL = "* %s rejoint le canal %s.%n";
+	static final String MESSAGE_ARRIVEE_CANAL = "* %s rejoint le canal %s.%n";
 	
 	/**
 	 * Message de non existence d'un canal demandé (lors d'un changement de canal).
 	 */
-	public static final String MESSAGE_NON_EXISTENCE_CANAL_DEMANDE = "* Le canal demandé n'existe pas.%n";
+	static final String MESSAGE_NON_EXISTENCE_CANAL_DEMANDE = "* Le canal demandé n'existe pas.%n";
 	
 	/**
 	 * Message de création de canal.
@@ -140,7 +140,7 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_CREATION_CANAL = "* Le canal %s a été créé.%n";
+	static final String MESSAGE_CREATION_CANAL = "* Le canal %s a été créé.%n";
 	
 	/**
 	 *  Message d'impossibilité de création de canal (le canal existe déjà).
@@ -149,7 +149,7 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_CREATION_IMPOSSIBLE_CANAL = "* Le canal %s existe déjà.%n";
+	static final String MESSAGE_CREATION_IMPOSSIBLE_CANAL = "* Le canal %s existe déjà.%n";
 
 	/**
 	 * Message de suppression d'un canal.
@@ -158,7 +158,7 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_SUPPRESSION_CANAL = "* Le canal %s a été supprimé.%n";
+	static final String MESSAGE_SUPPRESSION_CANAL = "* Le canal %s a été supprimé.%n";
 	
 	/**
 	 * Message d'impossibilité de suppression d'un canal non vide.
@@ -167,7 +167,7 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_SUPPRESSION_CANAL_NON_VIDE = "* Le canal %s n'est pas vide.%n";
+	static final String MESSAGE_SUPPRESSION_CANAL_NON_VIDE = "* Le canal %s n'est pas vide.%n";
 
 	/**
 	 * Message d'impossibilité de suppression d'un canal inexistant.
@@ -176,7 +176,7 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_SUPPRESSION_CANAL_INEXISTANT = "* Le canal %s n'existe pas.%n";
+	static final String MESSAGE_SUPPRESSION_CANAL_INEXISTANT = "* Le canal %s n'existe pas.%n";
 	
 	/**
 	 * Message d'impossibilité de supprimer le canal par défaut du chat.
@@ -185,13 +185,13 @@ public final class ProtocoleChat
 	 * <li>%s : Renseigné par le nom du canal par défaut lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_SUPPRESSION_CANAL_PAR_DEFAUT 
+	static final String MESSAGE_SUPPRESSION_CANAL_PAR_DEFAUT
 		= "* Impossible de supprimer le canal par défaut du chat (%s).%n";
 
 	/**
 	 * Message d'en-tête des canaux disponibles.
 	 */
-	public static final String MESSAGE_CANAUX_DISPONIBLES_EN_TETE = "* Canaux disponibles : %n";
+	static final String MESSAGE_CANAUX_DISPONIBLES_EN_TETE = "* Canaux disponibles : %n";
 	
 	/**
 	 * Message d'affichage d'un canal disponible.
@@ -201,7 +201,7 @@ public final class ProtocoleChat
 	 * <li>%d : Renseigné par le nombre d'utilisateurs du canal lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_CANAUX_DISPONIBLES_CANAL = "   - %s (%d)%n";
+	static final String MESSAGE_CANAUX_DISPONIBLES_CANAL = "   - %s (%d)%n";
 	
 	/**
 	 * Message des informations personnelles d'un client.
@@ -211,14 +211,14 @@ public final class ProtocoleChat
 	 * <li>Deuxième %s : Renseigné par le nom du canal du client lors de l'utilisation du message.
 	 * </ul></p>
 	 */
-	public static final String MESSAGE_INFORMATIONS_PERSONNELLES = "* Informations personnelles : %n"
+	static final String MESSAGE_INFORMATIONS_PERSONNELLES = "* Informations personnelles : %n"
 																	+ "   Surnom : %s ;%n"
 																	+ "   Canal  : %s ;%n";
 
 	/**
 	 * Message de sortie du chat pour le client concerné.
 	 */
-	public static final String MESSAGE_CLIENT_LEFT_CHAT = "*Sortie du chat";
+	static final String MESSAGE_CLIENT_LEFT_CHAT = "*Sortie du chat";
 
 	/**
 	 * Espacement pour le message d'aide.
@@ -228,7 +228,7 @@ public final class ProtocoleChat
 	/**
 	 * Message d'aide sur les commandes du chat.
 	 */
-	public static final String MESSAGE_AIDE = "* Commandes disponibles : %n"
+	static final String MESSAGE_AIDE = "* Commandes disponibles : %n"
 			
 			+ ProtocoleChat.ESPACE_MESSAGE_AIDE + ProtocoleChat.COMMANDE_CARACTERE 
 			+ ProtocoleChat.COMMANDE_CHANGE_SURNOM_CLIENT + " : changer de surnom ;%n"
@@ -271,8 +271,7 @@ public final class ProtocoleChat
 	 * 
 	 * @return vrai (<i>true</i>) si le message est une commande, faux (<i>false</i>) sinon.
 	 */
-	public static final Boolean estUneCommande(String message)
-	{
+	static Boolean estUneCommande(String message) {
 		return (message.length() > 1) && (message.charAt(0) == ProtocoleChat.COMMANDE_CARACTERE);
 	}
 	
@@ -288,7 +287,7 @@ public final class ProtocoleChat
 	 * 
 	 * @return la commande du message.
 	 */
-	public static final char commandeDuMessage(String message)
+	static char commandeDuMessage(String message)
 	{
 		return message.charAt(1);
 	}
@@ -300,8 +299,7 @@ public final class ProtocoleChat
 	 * @return le paramètre de la commande.
 	 *
 	 */
-	public static final String parametreCommande(String commande)
-	{
+	static String parametreCommande(String commande) {
 		String parametre = "";
 
 		if (commande.length() > ProtocoleChat.TAILLE_COMMANDE) {

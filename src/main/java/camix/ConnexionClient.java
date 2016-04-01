@@ -80,8 +80,7 @@ public class ConnexionClient
 	 *
 	 * @throws IOException exception d'entrée/sortie.
 	 */
-	public void ecrire(String message) throws IOException
-	{
+	void ecrire(String message) throws IOException {
 		if (this.canReadAndWrite) {
 			try {
 				this.bufferEcriture.write(message, 0, message.length());
@@ -105,8 +104,7 @@ public class ConnexionClient
 	 *
 	 * @throws IOException exception d'entrée/sortie.
 	 */
-	public String lire() throws IOException
-	{
+	String lire() throws IOException {
 		String message = null;
 		if (this.canReadAndWrite) {
 			try {
@@ -130,8 +128,7 @@ public class ConnexionClient
 	 * Fermeture des buffers de lecture et d'écriture et fermeture de la socket.
 	 * 
 	 */
-	public void ferme() 
-	{
+	void ferme() {
 		// Fermeture du buffer d'écriture.
 		try {
 			this.bufferEcriture.close();

@@ -42,7 +42,7 @@ public class ClientChat extends Thread
 	 * 
 	 * @return l'identifiant du client.
 	 */
-	public String donneId()
+	String donneId()
 	{
 		return this.id;
 	}
@@ -52,7 +52,7 @@ public class ClientChat extends Thread
 	 *
 	 * @return le surnom du client.
 	 */
-	public String donneSurnom()
+	String donneSurnom()
 	{
 		return this.surnom;
 	}
@@ -62,7 +62,7 @@ public class ClientChat extends Thread
 	 *
 	 * @return le canal du client.
 	 */
-	public CanalChat donneCanal()
+	CanalChat donneCanal()
 	{
 		return this.canal;
 	}
@@ -104,7 +104,7 @@ public class ClientChat extends Thread
 	/**
 	 * Lancement du service à un client.
 	 */
-	public void lanceService()
+	void lanceService()
 	{
 		this.start();
 	}
@@ -188,7 +188,7 @@ public class ClientChat extends Thread
 	 *
 	 * @param surnom le nouveau surnom du client.
 	 */
-	public void changeSurnom(String surnom)
+	void changeSurnom(String surnom)
 	{
 		this.surnom = surnom;
 	} 
@@ -198,8 +198,7 @@ public class ClientChat extends Thread
 	 * 
 	 * @param canal le nouveau canal du client.
 	 */
-	public void changeCanal(CanalChat canal)
-	{
+	void changeCanal(CanalChat canal) {
 		if (canal != null) {
 			this.canal.enleveClient(this);
 			this.canal = canal;
@@ -213,8 +212,7 @@ public class ClientChat extends Thread
 	 * @param message le message à envoyer.
 	 *
 	 */
-	public void envoieMessage(String message)
-	{
+	void envoieMessage(String message) {
 		if (this.canal.estPresent(this)) {
 			try {
 				this.connexion.ecrire(message);
@@ -234,8 +232,7 @@ public class ClientChat extends Thread
 	 * @param message le message à envoyer.
 	 *
 	 */
-	public void envoieContacts(String message)
-	{
+	void envoieContacts(String message) {
 		// Synchronisation : 
 		// Pour éviter qu'un client ne soit supprimé du canal lors de l'envoi.
 		synchronized (this.canal) {
@@ -249,8 +246,7 @@ public class ClientChat extends Thread
 	 * @param message le message à envoyer.
 	 *
 	 */
-	public void envoieCanal(String message)
-	{
+	void envoieCanal(String message) {
 		// Synchronisation : 
 		// Pour éviter qu'un client ne soit supprimé du canal lors de l'envoi.
 		synchronized (this.canal) {
@@ -262,8 +258,7 @@ public class ClientChat extends Thread
 	 * Fermeture de la connexion du client.
 	 *
 	 */
-	public void fermeConnexion() 
-	{
+	void fermeConnexion() {
 		// Synchronisation :
 		// Pour éviter qu'une connexion soit fermée lors de l'envoi d'un message sur le canal du client.
 		synchronized (this.canal) {

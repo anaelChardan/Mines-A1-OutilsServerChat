@@ -12,8 +12,7 @@ import java.util.Iterator;
  * @version 3.0.0.etu
  * @author Matthias Brun*
  */
-public class ServiceChat
-{
+public class ServiceChat {
 	/**
 	 * La socket de connexion des nouveaux clients.
 	 */
@@ -43,8 +42,7 @@ public class ServiceChat
 	 * @throws IOException exception d'entrée/sortie.
 	 *
 	 */
-	public ServiceChat(String canal, Integer port)
-	{
+	public ServiceChat(String canal, Integer port) {
 		// Création de l'ensemble des canaux.
 		this.canaux = new Hashtable<String, CanalChat>();
 
@@ -64,8 +62,7 @@ public class ServiceChat
 	 *
 	 * @throws IOException exception d'entrée/sortie.
 	 */
-	public void lanceService() throws IOException
-	{		
+	void lanceService() throws IOException {
 		// Ouverture de la socket serveur.
 		try {
 			this.socketChat = new ServerSocket(this.port);
@@ -93,8 +90,7 @@ public class ServiceChat
 	 *
 	 * @see ServiceChatClient
 	 */
-	private void service() throws IOException 
-	{
+	private void service() throws IOException {
 		// Mise en écoute sur la socket serveur.
 		while (true) {
 			// Création d'une socket de communication avec un client.
@@ -121,8 +117,7 @@ public class ServiceChat
 	 *
 	 * @throws IOException exception d'entrée/sortie.
 	 */
-	private void ferme() throws IOException
-	{
+	private void ferme() throws IOException {
 		// Fermeture de la socket serveur.
 		try {
 			this.socketChat.close();
@@ -143,14 +138,13 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat
 	 */
-	private void informeArriveeClient(ClientChat client)
-	{
+	private void informeArriveeClient(ClientChat client) {
 		String message;
 
 		message = String.format(ProtocoleChat.MESSAGE_ARRIVEE_CHAT, this.canalDefaut.donneNom());
 		client.envoieContacts(message);
 
-		message = String.format(ProtocoleChat.MESSAGE_ACCUEIL_CHAT);
+		message = ProtocoleChat.MESSAGE_ACCUEIL_CHAT;
 		client.envoieMessage(message);
 	}
 
@@ -163,8 +157,7 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat
 	 */
-	public void informeDepartClient(ClientChat client)
-	{
+	void informeDepartClient(ClientChat client) {
 		String message;
 
 		message = String.format(ProtocoleChat.MESSAGE_DEPART_CHAT, client.donneSurnom());
@@ -183,8 +176,7 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat 
 	 */
-	public void changeSurnomClient(ClientChat client, String surnom)
-	{
+	void changeSurnomClient(ClientChat client, String surnom) {
 		final String ancienSurnom = client.donneSurnom();
 		String message;
 
@@ -205,8 +197,7 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat 
 	 */
-	public void changeCanalClient(ClientChat client, String nom)
-	{
+	void changeCanalClient(ClientChat client, String nom) {
 		// Synchronization :
 		// Pour éviter de bouger un client dans un canal en cours de suppression.
 		synchronized (this.canaux) {
@@ -224,7 +215,7 @@ public class ServiceChat
 									client.donneSurnom(), client.donneCanal().donneNom());
 				client.envoieCanal(message);
 			} else {
-				message = String.format(ProtocoleChat.MESSAGE_NON_EXISTENCE_CANAL_DEMANDE);
+				message = ProtocoleChat.MESSAGE_NON_EXISTENCE_CANAL_DEMANDE;
 				client.envoieMessage(message);
 			}
 		}
@@ -243,8 +234,7 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat 
 	 */
-	public void ajouteCanal(ClientChat client, String nom)
-	{
+	void ajouteCanal(ClientChat client, String nom) {
 		String message;
 
 		// Synchronization :
@@ -282,8 +272,7 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat 
 	 */
-	public void supprimeCanal(ClientChat client, String nom)
-	{
+	void supprimeCanal(ClientChat client, String nom) {
 		String message;
 
 		// Synchronization :
@@ -325,18 +314,16 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat 
 	 */
-	public void afficheCanaux(ClientChat client)
-	{
-		String message = String.format(ProtocoleChat.MESSAGE_CANAUX_DISPONIBLES_EN_TETE);
+	void afficheCanaux(ClientChat client) {
+		String message = ProtocoleChat.MESSAGE_CANAUX_DISPONIBLES_EN_TETE;
 
 		// Pour chaque canaux.
-		final Iterator<String> iter = this.canaux.keySet().iterator();
 
-		while (iter.hasNext()) {
-			final CanalChat canal = this.canaux.get(iter.next());
+		for (String s : this.canaux.keySet()) {
+			final CanalChat canal = this.canaux.get(s);
 			message = message.concat(
-				String.format(ProtocoleChat.MESSAGE_CANAUX_DISPONIBLES_CANAL, 
-						canal.donneNom(), canal.donneNombreClients())
+					String.format(ProtocoleChat.MESSAGE_CANAUX_DISPONIBLES_CANAL,
+							canal.donneNom(), canal.donneNombreClients())
 			);
 		}
 		client.envoieMessage(message);
@@ -351,8 +338,7 @@ public class ServiceChat
 	 * 
 	 * @see ProtocoleChat 
 	 */
-	public void afficheInformationsClient(ClientChat client)
-	{
+	void afficheInformationsClient(ClientChat client) {
 		final String message = String.format(ProtocoleChat.MESSAGE_INFORMATIONS_PERSONNELLES, 
 							client.donneSurnom(), client.donneCanal().donneNom());
 		
@@ -364,9 +350,8 @@ public class ServiceChat
 	 *
 	 * @param client le client à qui afficher l'aide.
 	 */
-	public void afficheAide(ClientChat client)
-	{
-		final String message = String.format(ProtocoleChat.MESSAGE_AIDE);
+	void afficheAide(ClientChat client) {
+		final String message = ProtocoleChat.MESSAGE_AIDE;
 
 		client.envoieMessage(message);
 	}
@@ -377,8 +362,7 @@ public class ServiceChat
 	 * @param client le client concerné.
 	 *
 	 */
-	public void fermeConnexion(ClientChat client) 
-	{
+	void fermeConnexion(ClientChat client) {
 		//On ne ferme pas la connexion d'un client s'il est n'est plus dans le canal
 		if (client.donneCanal().estPresent(client)) {
 			System.out.println("Fermeture connexion client (id : " + client.donneId() + ").");
