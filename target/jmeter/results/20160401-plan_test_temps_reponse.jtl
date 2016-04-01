@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="76312" lt="0" ts="1459503501712" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-1" dt="" by="0" ng="100" na="100">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76305" lt="0" ts="1459503501730" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-2" dt="" by="0" ng="100" na="100">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76305" lt="0" ts="1459503501754" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-3" dt="" by="0" ng="98" na="98">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76305" lt="0" ts="1459503501773" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-4" dt="" by="0" ng="97" na="97">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76305" lt="0" ts="1459503501789" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-5" dt="" by="0" ng="96" na="96">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76305" lt="0" ts="1459503501811" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-6" dt="" by="0" ng="95" na="95">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76304" lt="0" ts="1459503501831" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-7" dt="" by="0" ng="94" na="94">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76304" lt="0" ts="1459503501851" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-8" dt="" by="0" ng="93" na="93">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76302" lt="0" ts="1459503501878" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-9" dt="" by="0" ng="92" na="92">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76301" lt="0" ts="1459503501894" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-10" dt="" by="0" ng="91" na="91">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76301" lt="0" ts="1459503501915" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-11" dt="" by="0" ng="90" na="90">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76300" lt="0" ts="1459503501938" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-12" dt="" by="0" ng="89" na="89">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503501958" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-13" dt="" by="0" ng="88" na="88">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76300" lt="0" ts="1459503501976" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-14" dt="" by="0" ng="87" na="87">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76301" lt="0" ts="1459503502000" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-15" dt="" by="0" ng="86" na="86">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76300" lt="0" ts="1459503502018" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-16" dt="" by="0" ng="85" na="85">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76300" lt="0" ts="1459503502042" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-17" dt="" by="0" ng="84" na="84">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503502060" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-18" dt="" by="0" ng="83" na="83">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503502082" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-19" dt="" by="0" ng="82" na="82">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503502101" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-20" dt="" by="0" ng="81" na="81">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503502122" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-21" dt="" by="0" ng="80" na="80">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76298" lt="0" ts="1459503502142" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-22" dt="" by="0" ng="79" na="79">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76298" lt="0" ts="1459503502160" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-23" dt="" by="0" ng="78" na="78">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76298" lt="0" ts="1459503502183" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-24" dt="" by="0" ng="77" na="77">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76298" lt="0" ts="1459503502201" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-25" dt="" by="0" ng="76" na="76">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76298" lt="0" ts="1459503502220" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-26" dt="" by="0" ng="75" na="75">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503502244" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-27" dt="" by="0" ng="74" na="74">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503502262" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-28" dt="" by="0" ng="73" na="73">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76299" lt="0" ts="1459503502282" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-29" dt="" by="0" ng="72" na="72">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76298" lt="0" ts="1459503502301" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-30" dt="" by="0" ng="71" na="71">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76298" lt="0" ts="1459503502326" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-31" dt="" by="0" ng="70" na="70">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76297" lt="0" ts="1459503502344" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-32" dt="" by="0" ng="69" na="69">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76296" lt="0" ts="1459503502364" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-33" dt="" by="0" ng="68" na="68">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76296" lt="0" ts="1459503502385" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-34" dt="" by="0" ng="67" na="67">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76296" lt="0" ts="1459503502402" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-35" dt="" by="0" ng="66" na="66">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76296" lt="0" ts="1459503502426" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-36" dt="" by="0" ng="65" na="65">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76295" lt="0" ts="1459503502447" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-37" dt="" by="0" ng="64" na="64">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76295" lt="0" ts="1459503502463" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-38" dt="" by="0" ng="63" na="63">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76295" lt="0" ts="1459503502485" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-39" dt="" by="0" ng="62" na="62">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76295" lt="0" ts="1459503502507" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-40" dt="" by="0" ng="61" na="61">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76293" lt="0" ts="1459503502526" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-41" dt="" by="0" ng="60" na="60">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76294" lt="0" ts="1459503502549" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-42" dt="" by="0" ng="59" na="59">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76292" lt="0" ts="1459503502569" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-43" dt="" by="0" ng="58" na="58">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76292" lt="0" ts="1459503502589" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-44" dt="" by="0" ng="57" na="57">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76293" lt="0" ts="1459503502606" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-45" dt="" by="0" ng="56" na="56">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76292" lt="0" ts="1459503502626" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-46" dt="" by="0" ng="55" na="55">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76291" lt="0" ts="1459503502649" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-47" dt="" by="0" ng="54" na="54">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76292" lt="0" ts="1459503502666" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-48" dt="" by="0" ng="53" na="53">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76290" lt="0" ts="1459503502691" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-49" dt="" by="0" ng="52" na="52">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76290" lt="0" ts="1459503502711" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-50" dt="" by="0" ng="51" na="51">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76291" lt="0" ts="1459503502731" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-51" dt="" by="0" ng="50" na="50">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76289" lt="0" ts="1459503502752" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-52" dt="" by="0" ng="49" na="49">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76290" lt="0" ts="1459503502770" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-53" dt="" by="0" ng="48" na="48">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76289" lt="0" ts="1459503502789" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-54" dt="" by="0" ng="47" na="47">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76288" lt="0" ts="1459503502809" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-55" dt="" by="0" ng="46" na="46">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76290" lt="0" ts="1459503502830" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-56" dt="" by="0" ng="45" na="45">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76289" lt="0" ts="1459503502852" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-57" dt="" by="0" ng="44" na="44">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76288" lt="0" ts="1459503502873" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-58" dt="" by="0" ng="43" na="43">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76287" lt="0" ts="1459503502894" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-59" dt="" by="0" ng="42" na="42">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76286" lt="0" ts="1459503502911" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-60" dt="" by="0" ng="41" na="41">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76285" lt="0" ts="1459503502931" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-61" dt="" by="0" ng="40" na="40">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76283" lt="0" ts="1459503502950" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-62" dt="" by="0" ng="39" na="39">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76281" lt="0" ts="1459503502977" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-63" dt="" by="0" ng="38" na="38">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76283" lt="0" ts="1459503502994" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-64" dt="" by="0" ng="37" na="37">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76280" lt="0" ts="1459503503014" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-65" dt="" by="0" ng="36" na="36">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76279" lt="0" ts="1459503503033" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-66" dt="" by="0" ng="35" na="35">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76278" lt="0" ts="1459503503051" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-67" dt="" by="0" ng="34" na="34">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76278" lt="0" ts="1459503503076" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-68" dt="" by="0" ng="33" na="33">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76277" lt="0" ts="1459503503096" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-69" dt="" by="0" ng="32" na="32">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76277" lt="0" ts="1459503503114" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-70" dt="" by="0" ng="31" na="31">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76278" lt="0" ts="1459503503132" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-71" dt="" by="0" ng="30" na="30">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76277" lt="0" ts="1459503503155" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-72" dt="" by="0" ng="29" na="29">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76278" lt="0" ts="1459503503177" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-73" dt="" by="0" ng="28" na="28">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76277" lt="0" ts="1459503503197" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-74" dt="" by="0" ng="27" na="27">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76275" lt="0" ts="1459503503214" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-75" dt="" by="0" ng="26" na="26">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76274" lt="0" ts="1459503503239" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-76" dt="" by="0" ng="25" na="25">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76273" lt="0" ts="1459503503255" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-77" dt="" by="0" ng="24" na="24">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76272" lt="0" ts="1459503503277" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-78" dt="" by="0" ng="23" na="23">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76272" lt="0" ts="1459503503294" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-79" dt="" by="0" ng="22" na="22">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76270" lt="0" ts="1459503503317" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-80" dt="" by="0" ng="21" na="21">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76270" lt="0" ts="1459503503339" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-81" dt="" by="0" ng="20" na="20">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76270" lt="0" ts="1459503503357" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-82" dt="" by="0" ng="19" na="19">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76270" lt="0" ts="1459503503377" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-83" dt="" by="0" ng="18" na="18">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76268" lt="0" ts="1459503503399" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-84" dt="" by="0" ng="17" na="17">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76267" lt="0" ts="1459503503416" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-85" dt="" by="0" ng="16" na="16">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76267" lt="0" ts="1459503503437" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-86" dt="" by="0" ng="15" na="15">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76267" lt="0" ts="1459503503457" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-87" dt="" by="0" ng="14" na="14">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76266" lt="0" ts="1459503503479" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-88" dt="" by="0" ng="13" na="13">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76266" lt="0" ts="1459503503501" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-89" dt="" by="0" ng="12" na="12">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76265" lt="0" ts="1459503503518" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-90" dt="" by="0" ng="11" na="11">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76264" lt="0" ts="1459503503538" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-91" dt="" by="0" ng="10" na="10">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76264" lt="0" ts="1459503503560" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-92" dt="" by="0" ng="9" na="9">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76263" lt="0" ts="1459503503580" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-93" dt="" by="0" ng="8" na="8">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76263" lt="0" ts="1459503503600" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-94" dt="" by="0" ng="7" na="7">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76262" lt="0" ts="1459503503618" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-95" dt="" by="0" ng="6" na="6">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76261" lt="0" ts="1459503503643" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-96" dt="" by="0" ng="5" na="5">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76261" lt="0" ts="1459503503661" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-97" dt="" by="0" ng="4" na="4">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76259" lt="0" ts="1459503503681" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-98" dt="" by="0" ng="3" na="3">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76260" lt="0" ts="1459503503703" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-99" dt="" by="0" ng="2" na="2">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="76258" lt="0" ts="1459503503722" s="false" lb="Requête TCP - Connexion" rc="500" rm="java.net.ConnectException: Operation timed out" tn="Groupe d&apos;unités de tests de temps de réponses 1-100" dt="" by="0" ng="1" na="1">
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Assertion Réponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</sample>
+
+</testResults>
